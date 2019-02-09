@@ -110,3 +110,30 @@ h2, strong,h3{
   width:100%;
 
 }
+#myProjects{
+  background-color: #DCD8D6;
+  display:flex;
+  flex-direction:row;
+}
+.project{
+  text-align:justify;
+  display:inherit;
+  flex-direction: column;
+  width:25%;
+  margin:5%;
+}
+.project img{
+  width:100%;
+}
+.project a{
+  text-decoration: none;
+  color:#DF765A;
+}
+.project a:hover{
+  text-decoration:underline;
+  color:#000000;
+
+}
+.project img:hover{
+  box-shadow: 2px 2px 5px #DF765A;
+}
