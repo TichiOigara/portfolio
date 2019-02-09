@@ -13,6 +13,8 @@ nav{
 }
 nav ul{
   text-align:right;
+  margin:0;
+  padding:0;
 }
 nav ul li{
   display:inline-block;
@@ -24,6 +26,7 @@ nav ul li a{
   text-transform: uppercase;
   padding:0.5em 0.5em;
   display:block;
+
 }
 nav ul li a:hover{
   background-color:white;
@@ -48,4 +51,40 @@ nav ul li a:hover{
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+#intro{
+  color:#fff;
+}
+h1{
+  text-transform:uppercase;
+  color:#DF765A;
+  text-align:center;
+  font-weight: bold;
+}
+#aboutMe{
+  background-color: #DF765A;
+  color:#000000;
+  display:flex;
+  flex-direction:column;
+}
+#aboutSection{
+  display:flex;
+  flex-wrap:wrap;
+}
+#profile{
+  width:30%;
+  margin:5%;
+  margin-top:0;
+}
+#education{
+  width:50%;
+  margin: 5%;
+  margin-top:0;
+}
+h2, strong,h3{
+  text-transform:uppercase;
+}
+#moreAboutMe{
+  margin:5% 5% 5% 5%;
+  text-align:center;
 }
