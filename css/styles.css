@@ -103,7 +103,8 @@ h2, strong,h3{
   margin:5%;
   text-align:center;
   font-weight: bold;
-
+  text-transform: uppercase;
+  font-size: 1.5em;
 }
 .skill img{
   width:100%;
