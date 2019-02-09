@@ -148,8 +148,16 @@ input{
   width:100%;
   margin: 1em 0;
   display:block;
-  border-radius:20px;
+  border-radius:10px;
+  padding: 2%;
 
+}
+input[type=submit]{
+  background-color: #000000;
+  color:white;
+  border:1px solid black;
+  padding:2%;
+  cursor: pointer;
 }
 #footer{
   background-color:#000000;
