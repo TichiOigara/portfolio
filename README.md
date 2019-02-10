@@ -1,8 +1,8 @@
 # Portfolio
-#### This is a simple Portfolio website. It display my profile, skills, educational background and has some links to projects I have done before.
+#### This is a simple Portfolio website.
 #### By **Sheila Oigara**
 ## Description
-Portfolio website displays my profile, skills, educational background and links to projects that I have done.
+Portfolio website displays my profile, skills, educational background and links to projects that I have done. It also has a section for contacting me should you want to.
 ## Setup/Installation Requirements
 In order to use this application:
 * Clone or Download the repository to your computer.
