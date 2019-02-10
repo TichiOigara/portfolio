@@ -4,6 +4,7 @@
 <head>
   <title>My Portfolio</title>
   <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
 </head>
 
 <body>
@@ -17,13 +18,19 @@
     </ul>
   </nav>
   <div id="home">
-    <img src="images/image1.jpg" alt="wolf">
-    <h1>Hello World! I'm Sheila Oigara</h1>
-    <h3>Junior Full Stack Developer</h3>
-  </div>
+    <div id="overlay">
 
+      <h1 class="intro">Hello World! I'm Sheila Oigara</h1>
+      <h3 class="intro">I'm a Junior Full Stack Developer</h3>
+    </div>
+  </div>
+  <h1>About Me</h1>
   <div id="aboutMe">
-    <div>
+    <div id="moreAboutMe">
+      <p>I am Sheila Nyatichi Oigara and I am Junior Full Stack Developer.I work as a freelancer and I am based in Nairobi, Kenya. I am passionate about developing user-friendly websites that are practical.</p>
+    </div>
+
+    <div id="aboutSection">
       <!--Add a profile, education and paragraph about coding-->
       <div id="profile">
         <h2>Profile</h2>
@@ -38,36 +45,72 @@
         <h3>Jomo Kenyatta University of agriculture and Technology</h3>
         <p><strong>Years:</strong>2013-2018</p>
         <p><strong>Course:</strong><br>Electronic and Computer Engineering</p>
-        <h3>Pangani Girls High School.</h3>
+        <h3>Pangani Girls High School</h3>
         <p><strong>Years:</strong>2009-2012</p>
 
       </div>
 
     </div>
+
   </div>
+  <h1>Skills</h1>
   <div id="mySkills">
-    <h1>Skills</h1>
-    <div id="skills">
-      <div class="skill">
-        <img src="images/html-icon.png" alt="icon">
-        <h4>HTML</h4>
-      </div>
-      <div class="skill">
-        <img src="images/css-icon.png" alt="icon">
-        <h4>CSS</h4>
-      </div>
-      <div class="skill">
-        <img src="images/git-icon.png" alt="icon">
-        <h4>Git</h4>
-      </div>
+
+
+    <div class="skill">
+      <img src="images/html-icon.png" alt="icon">
+      <h4>HTML</h4>
     </div>
-  </div>
-  <div id="myProject">
-    <h1>My Projects</h1>
+    <div class="skill">
+      <img src="images/css-icon.png" alt="icon">
+      <h4>CSS</h4>
+    </div>
+    <div class="skill">
+      <img src="images/git-icon.png" alt="icon">
+      <h4>Git</h4>
+    </div>
 
   </div>
+  <h1>My Projects</h1>
+  <div id="myProjects">
+    <div class="project">
+      <h3><a href="https://github.com/TichiOigara/petproject" target="_blank">First Website</a></h3>
+      <a href="https://github.com/TichiOigara/petproject" target="_blank">
+
+        <img src="images/project1.PNG">
+      </a>
+      <p>A project about the first website I developed. I used basic HTML and CSS in designing the page.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/TichiOigara/moringa-pre-prep-project" target="_blank">R & C Farm</a></h3>
+      <a href="https://github.com/TichiOigara/moringa-pre-prep-project" target="_blank">
+
+        <img src="images/project2.PNG">
+      </a>
+      <p>A website that provides a platform for selling products online. HTML was used to structure the page and CSS for styling.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://github.com/TichiOigara/happy-trails-resort" target="_blank">Happy Trails Resort</a></h3>
+      <a href="https://github.com/TichiOigara/happy-trails-resort" target="_blank">
+
+        <img src="images/project3.PNG">
+      </a>
+      <p>A website about popular resorts. HTML was used to create the website layout and CSS was used for styling the page.</p>
+    </div>
+
+  </div>
+  <h1>Contact Me</h1>
   <div id="contactMe">
-
+    <p>You can contact me below:</p>
+    <form class="" action="index.html" method="post">
+      <input type="text" name="Name" value="" placeholder="What is your Name?">
+      <input type="email" name="Email" value="" placeholder="What is your email?">
+      <textarea name="name" rows="10" cols="80" placeholder="What is your message?"></textarea>
+      <input type="submit" name="Send" value="Send">
+    </form>
+  </div>
+  <div id="footer">
+    <p>MyPortfolio 2019</p>
   </div>
 </body>
 
