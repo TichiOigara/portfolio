@@ -2,7 +2,7 @@
 #### This is a simple Portfolio website.
 #### By [TichiOigara](https://github.com/TichiOigara)
 ## Description
-Portfolio website displays my profile, skills, educational background and links to projects that I have done. It also has a section for contacting me should you want to.
+Portfolio website displays my profile, skills, educational background and links to projects that I have done. The project is built using HTML which structured the web page. CSS is used for styling.
 ## Setup/Installation Requirements
 In order to use this application:
 * Clone or Download the repository to your computer.
